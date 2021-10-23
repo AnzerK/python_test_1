@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 
-df = pd.read_csv("sampledata1.csv")
+df = pd.read_csv("sampledata2.csv")
 
 df = df.iloc[: , 1:]
 
