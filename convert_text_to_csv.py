@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("sampledata1.text", delimiter = "|")
+df = pd.read_csv("sampledata1.txt", delimiter = "|")
 
 df.dropna(how = 'all', axis = 1, inplace=True)
 
